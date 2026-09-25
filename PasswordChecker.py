@@ -27,10 +27,10 @@ if ContainsSpecChar == False:
     print("Your password does not include special characters.")
 
 if ContainsNum == True and ContainsSpecChar == True and Contains8Chars == True:
-    print("Your password is very strong!")
+    print("Your password is very strong! Rating: 3/3")
 
 elif ContainsNum == True and ContainsSpecChar == True or ContainsNum == True and Contains8Chars == True or ContainsSpecChar == True and Contains8Chars == True:
-    print("Your password is strong.")
+    print("Your password is strong. Rating: 2/3")
 
 else:
-    print("Your password is weak.")
+    print("Your password is weak. Rating: 1/3")
